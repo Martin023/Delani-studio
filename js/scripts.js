@@ -1,3 +1,6 @@
+
+//The business Logic
+
 $(document).ready(function(){
   $("#development-image").click(function(){
     $("#development-image").slideDown('1500').hide('1000');
@@ -66,6 +69,10 @@ for(i=0; i<image.length; i++){
         }   
     })
 }
+
+//The User logic 
+
+
 /* Form section*/
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
@@ -74,12 +81,12 @@ $(document).ready(function(){
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
     if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-      alert (name + ", we have received your message. Thank you for reaching out to us.");
+      alert ("Hello " + name + ", we have received your message. Thank you for reaching out to Delani Studio.");
     }
     else {
       alert("Please enter your name and email!");
     }
-    event.preventDefault();
+    //event.preventDefault();
   });
 
 });
