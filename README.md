@@ -4,6 +4,13 @@ A landing page for Delani Studio, a software development company (IP week 3) 14/
 Areas of learning targeted are BDD, jQuery, Introduction to Api's and Responsive design.
 #### By Martin Maina
 Here is the live demo :https://martin023.github.io/delani-studio/
+## Table of Contents
+
+-   [Description](#description)
+-   [Installation Requirement](#usage)
+-   [Technology Used](#technologies)
+-   [Licence](#licence)
+-   [Authors Info](#author-info)
 
 ## Screenshot of the page
 ![Delani-studio-screenshot](https://user-images.githubusercontent.com/36125591/158080735-1a378f90-8318-4a0f-ac43-e87d4e2de7ce.png)
