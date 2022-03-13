@@ -3,7 +3,7 @@
 A landing page for Delani Studio, a software development company (IP week 3) 14/03/2022.
 Areas of learning targeted are BDD, jQuery, Introduction to Api's and Responsive design.
 #### By Martin Maina
-Here is the live demo :https://martin023.github.io/delani-studio/
+Here is the live demo :https://martin023.github.io/Delani-studio/
 ## Table of Contents
 
 -   [Description](#description)
