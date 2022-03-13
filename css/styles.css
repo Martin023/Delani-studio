@@ -4,7 +4,10 @@ html{
 }
 body{
     font-family: 'Fredoka' , sans-serif;
+    text
 }
+
+
 .landing{
   background-image: url('../images/backgrounds/h_img.jpg');
   background-position: center center;
@@ -36,6 +39,196 @@ body{
   /* animation-iteration-count: infinite; */
   animation: bounce 3s infinite;
 }
+#portfolio {
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 500px) {
+    #portfolio {
+        padding: 5% 10% 10% 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    #portfolio {
+        padding: 5% 10% 10% 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+
+#portfolio h3 {
+    text-transform: uppercase;
+    font-size: 2vw;
+    margin-bottom: 2%;
+    letter-spacing: 0.3vw;
+}
+@media screen and (max-width: 500px) {
+    #portfolio h3 {
+        text-transform: uppercase;
+        font-size: 7vw;
+        margin-bottom: 2%;
+        letter-spacing: 0.3vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    #portfolio h3 {
+        text-transform: uppercase;
+        font-size: 4vw;
+        margin-bottom: 2%;
+        letter-spacing: 0.2vw;
+    }
+}
+
+
+
+#portfolio .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#portfolio .items .item {
+    width: 23%;
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    #portfolio .items .item {
+        width: 100%;
+        margin: 5% 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    #portfolio .items .item {
+        width: 45%;
+        margin: 5% 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+#portfolio .items .item img {
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+
+#portfolio .items .item .text-box {
+    position: absolute;
+    z-index: -1;
+    background-clip: text;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    text-align: left;
+    animation: appear 0.5s;
+    display: none;
+    backdrop-filter: blur(0.1vw);
+}
+@media screen and (max-width: 500px) {
+    #portfolio .items .item .text-box {
+        position: absolute;
+        z-index: -1;
+        background-clip: text;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        text-align: left;
+        animation: appear 0.5s;
+        display: none;
+        backdrop-filter: blur(0.5vw);
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    #portfolio .items .item .text-box {
+        position: absolute;
+        z-index: -1;
+        background-clip: text;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        text-align: left;
+        animation: appear 0.5s;
+        display: none;
+        backdrop-filter: blur(0.2vw);
+    }
+}
+
+
+#portfolio .items .item .text-box p {
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5vw;
+    padding: 10%;
+    height: 90%;
+    width: 90%;
+    border: solid 0.3vw #fff;
+}
+@media screen and (max-width: 500px) {
+    #portfolio .items .item .text-box p {
+        text-align: left;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 5vw;
+        padding: 10%;
+        height: 90%;
+        width: 90%;
+        border: solid 1vw #fff;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    #portfolio .items .item .text-box p {
+        text-align: left;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 3vw;
+        padding: 10%;
+        height: 90%;
+        width: 90%;
+        border: solid 0.5vw #fff;
+    }
+}
+
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -65,7 +258,6 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Copse', serif;
   font-size: 18px;
 }
 .services h2{
@@ -90,8 +282,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:18%;
-  margin-right: 16%; 
+  margin-left:10%;
+  margin-right: 10%; 
 }
 .col-md-3 img{
   max-width: 100%;
@@ -164,22 +356,7 @@ footer p{
   font-size: 20px;
   font-weight: 600;
 }
-#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-  display: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
-  position:absolute;
-  top: 20px;
-  left: 35px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
 
-}
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
@@ -194,6 +371,7 @@ footer p{
     margin: 20px;
   }
   #portfolio{
+    margin-bottom:5%;
     margin-left:8%;
     margin-right: 16%; 
   }
@@ -222,6 +400,7 @@ footer p{
   #portfolio{
     margin-left:8%;
     margin-right: 16%; 
+    text-color:white;
   }
   button{
     padding-bottom: 30px;
