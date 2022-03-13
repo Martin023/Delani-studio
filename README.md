@@ -5,8 +5,8 @@ A landing page for Delani Studio, a software development company (IP week 3) 14/
 Here is the live demo :https://martin023.github.io/delani-studio/
 
 ## Screenshot of the page
-Delani-studio-screenshot.png
-          
+![Delani-studio-screenshot](https://user-images.githubusercontent.com/36125591/158080735-1a378f90-8318-4a0f-ac43-e87d4e2de7ce.png)
+   
 
 ## Description
 This is a landing page designed for Delani studio, a company that undertakes software development from design to the actual deployment. The page includes a detailed layout of some of their services, the companies/ people they have worked with and their contact information. There is also a section where you get to engage with them directly!.
